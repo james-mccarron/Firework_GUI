@@ -1,0 +1,24 @@
+.root{
+    -fx-vgap: 10px;
+    -fx-hgap: 10px;
+    -fx-grid-lines-visible: false;
+    -fx-padding: 50px;
+    -fx-alignment: top-right;
+    -fx-background-image: url("footballStadium.jpg");
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: 736px 434px;
+}
+.button {
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 24px;
+    -fx-text-fill: rgb(0, 0, 0);
+    -fx-background-color: linear-gradient( from 50.0% 0.0% to 50.0% 100.0%, rgb(240, 1, 0) 0.0, rgb(125, 1, 0) 100.0);
+}
+.button:hover {
+    -fx-background-color: rgb(255, 250, 255);
+}
+.label {
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 26px;
+    -fx-text-fill: rgb(0,0,0);
+}
